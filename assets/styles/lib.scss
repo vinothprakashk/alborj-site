@@ -1,0 +1,24 @@
+// Note!!
+// This is imported on every vue and scss files. 
+// So keep only variables here.
+
+$base-size: 16;
+
+//Function to convert px value into rem
+//You can replace rem with any other value you want (rem is most preferred value for web)
+@function size($target, $context: $base-size) {
+  @return ($target / $context) * 1rem;
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+// https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/
+// Media Query Break Points
+$breakpoint-sm: size(320);
+$breakpoint-md: size(768);
+$breakpoint-lg: size(1194);

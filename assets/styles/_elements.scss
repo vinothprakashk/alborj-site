@@ -1,0 +1,194 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* roboto-300 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/roboto-v20-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Light'), local('Roboto-Light'),
+       url('../fonts/roboto-v20-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v20-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v20-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v20-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v20-latin-300.svg#Roboto') format('svg'); /* Legacy iOS */
+  font-display: swap;
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v20-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('../fonts/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v20-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  font-display: swap;
+}
+/* roboto-700 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v20-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Bold'), local('Roboto-Bold'),
+       url('../fonts/roboto-v20-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v20-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v20-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v20-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v20-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+  font-display: swap;
+}
+
+html {
+  font-size: #{$base-size}px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--regular-font);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+
+  font-size: #{$base-size}px;
+  color: var(--regular-text);
+}
+
+a {
+  text-decoration: none;
+  color: var(--regular-text);
+
+  &:hover {
+    color: var(--hero-text);
+  }
+}
+
+b, em {
+  font-weight: bold;
+}
+
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 size(15);
+}
+
+@keyframes jump-up-shadow {
+  50% {
+    transform: translateY(-1px) translateX(-1px);
+    box-shadow: 3px 3px 5px 0px #fdeca91f;
+  }
+  75% {
+    transform: translateY(-1px);
+    box-shadow: 3px 3px 5px 0px #fdeca91f;
+  }
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
+
+.call-btn {
+  display: inline-block;
+  padding: size(10) size(15);
+  color: var(--regular-text-inv);
+  background-color: var(--secondary-bg);
+  font-size: var(--btn-font-size);
+  border-radius: size(4);
+  svg {
+    width: size(20);
+    height: size(20);
+    vertical-align: middle;
+    margin-right: size(5);
+    fill: var(--regular-text-inv);
+    transition: all 0.3s ease-in-out;
+  }
+  @media screen and (min-width: $breakpoint-md) {
+    svg {
+      width: size(24);
+      height: size(24);
+    }
+  }
+
+  &:hover {
+    color: var(--regular-text-inv);
+    animation: jump-up-shadow 350ms ease-out;
+    svg {
+      transform: rotate(35deg);
+    }
+  }
+}
+
+.whatsapp-btn {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  color: var(--regular-text-inv);
+  font-size: var(--btn-font-size);
+  font-weight: bold;
+  text-shadow: 0 1px 1px #000;
+  svg {
+    display: block;
+    width: size(30);
+    height: size(30);
+    margin: 0 auto size(10) auto;
+    animation: beat 1s infinite alternate;
+	  transform-origin: center;
+  }
+  @media screen and (min-width: $breakpoint-lg) {
+    top: 10%;
+    right: 10%;
+    bottom: auto;
+    span {
+      width: size(36);
+      height: size(36);
+    }
+  }
+  &:hover {
+    color: var(--regular-text-inv);
+    animation: jump-up-shadow 350ms ease-out;
+  }
+}
+
+.hide-on-mobile {
+  display: none;
+
+  @media screen and (min-width: $breakpoint-md) {
+    display: inherit;
+  }
+}
+
+.show-on-mobile {
+  display: inherit;
+
+  @media screen and (min-width: $breakpoint-md) {
+    display: none;
+  }
+}
+
+.hide-on-desktop {
+  display: none;
+
+  @media screen and (max-width: $breakpoint-lg) {
+    display: inherit;
+  }
+}
+
+.show-on-desktop {
+  display: inherit;
+
+  @media screen and (max-width: $breakpoint-lg) {
+    display: none;
+  }
+}
+  

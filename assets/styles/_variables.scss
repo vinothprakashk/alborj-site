@@ -1,0 +1,25 @@
+// :root might not be a good idea.
+// Ref https://css-tricks.com/breaking-css-custom-properties-out-of-root-might-be-a-good-idea/
+html {
+    --master-bg: #FFDCAC;
+    --secondary-bg: #FFC16C;
+
+    --subpage-primary: #6A9377;
+    --hero-text: #0053D6;
+    --regular-text: #333333;
+    --secondary-text: #123693;
+    --regular-text-inv: #ffffff;
+
+    --error-color: #ff0000;
+
+    --highlight-text: #FF9A0F;
+    --container-max-width: #{size(1194)};
+
+    --regular-font: 'Roboto', sans-serif;
+
+    --btn-font-size: #{size(16)};
+
+    @media screen and (min-width: $breakpoint-md) {
+        --btn-font-size: #{size(18)};
+    }
+}

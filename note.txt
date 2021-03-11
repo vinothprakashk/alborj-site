@@ -1,0 +1,8 @@
+git init
+heroku git:remote -a alborj-site
+heroku config:set HOST=0.0.0.0
+heroku config:set NODE_ENV=production
+
+git add .
+git commit -am "make it better"
+git push heroku master
