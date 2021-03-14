@@ -3,6 +3,8 @@
     <Banner />
     <Services />
     <CountsWidget />
+    <ChooseUs />
+    <Contact />
     <OurClients />
   </div>
 </template>

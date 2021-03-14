@@ -10,7 +10,7 @@
 
       <symbol id="instagram" viewBox="0 0 20 20">
         <g id="Page-1" stroke="none" stroke-width="1">
-          <g id="doctor-batter" transform="translate(-189.000000, -6188.000000)" fill-rule="nonzero">
+          <g id="alborj-site" transform="translate(-189.000000, -6188.000000)" fill-rule="nonzero">
             <g id="Footer" transform="translate(150.000000, 5769.000000)">
               <g id="Group-16" transform="translate(0.000000, 419.000000)">
                 <g transform="translate(39.000000, 0.000000)">
@@ -26,7 +26,7 @@
 
       <symbol id="linkedin" viewBox="0 0 20 20">
         <g id="Page-1" stroke="none" stroke-width="1">
-          <g id="doctor-batter" transform="translate(-273.000000, -6188.000000)" fill-rule="nonzero">
+          <g id="alborj-site" transform="translate(-273.000000, -6188.000000)" fill-rule="nonzero">
             <g id="Footer" transform="translate(150.000000, 5769.000000)">
               <g id="Group-16" transform="translate(0.000000, 419.000000)">
                 <g transform="translate(123.000000, 0.000000)">
@@ -40,7 +40,7 @@
 
       <symbol id="twitter" viewBox="0 0 23 20">
         <g id="Page-1" stroke="none" stroke-width="1">
-          <g id="doctor-batter" transform="translate(-229.000000, -6188.000000)" fill-rule="nonzero">
+          <g id="alborj-site" transform="translate(-229.000000, -6188.000000)" fill-rule="nonzero">
             <g id="Footer" transform="translate(150.000000, 5769.000000)">
               <g id="Group-16" transform="translate(0.000000, 419.000000)">
                 <g transform="translate(79.000000, 0.000000)">
