@@ -236,9 +236,12 @@
 .alborj-logo {
   animation: 1s appear;
   margin: auto;
-  height: size(100);
+  height: size(70);
   #logo-name {
     fill: #333;
+  }
+  @media screen and (min-width: $breakpoint-lg) {
+    height: size(100);
   }
 }
 

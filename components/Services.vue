@@ -6,17 +6,17 @@
           <h2>What We Do</h2>
         </div>
         <div class="services-inner-group">
-          <a title="Tips to change" href="#">
+          <a title="Tips to change" href="/blogs/">
             <span class="img-placeholder" />
             <span class="title">Contruction Consultant</span>
             <span>The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled </span>
           </a>
-          <a title="Guide" href="#">
+          <a title="Guide" href="/blogs/">
             <span class="img-placeholder" />
             <span class="title">General Contracting</span>
             <span>The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled </span>
           </a>
-          <a title="tips to extend" href="#">
+          <a title="tips to extend" href="/blogs/">
             <span class="img-placeholder" />
             <span class="title">Laminate Flooring</span>
             <span>The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled </span>

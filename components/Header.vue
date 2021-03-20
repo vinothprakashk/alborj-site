@@ -12,7 +12,7 @@
           <div class="header-right-links">
             <a
               href="#contactus"
-              title="About Us"
+              title="Contact Us"
             >
               Contact Us
             </a>
@@ -55,23 +55,18 @@
   top: 0;
   width: 100%;
   z-index: 9;
-  @media screen and (min-width: $breakpoint-md) {
-    &-logo img {
-      margin-top: size(14);
-      max-height: size(100);
-    }
-  }
 
   &-right {
     flex: 1;
 
     &-links {
       text-align: right;
-      padding: size(40) 0 size(10) 0;
+      padding: size(20) 0 size(10) 0;
       a {
         padding: size(10) size(15);
         display: inline-flex;
-        color: var(--regular-text-inv);
+        color: #E10000;
+        text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.58);
         @media screen and (min-width: $breakpoint-md) {
           font-size: size(18);
           font-weight: bold;
@@ -79,6 +74,18 @@
         &:hover {
           color: var(--regular-text);
         }
+      }
+    }
+  }
+  @media screen and (min-width: $breakpoint-lg) {
+    &-logo img {
+      margin-top: size(14);
+      max-height: size(100);
+    }
+
+    &-right {
+      &-links {
+        padding: size(40) 0 size(10) 0;
       }
     }
   }

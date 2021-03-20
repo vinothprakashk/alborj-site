@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Banner />
+    <HomeBanner />
     <Services />
     <CountsWidget />
     <ChooseUs />

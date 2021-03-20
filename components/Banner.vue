@@ -2,24 +2,12 @@
   <div class="banner">
     <div class="container">
       <div class="banner-inner">
-        <div class="banner-inner-left">
-          <h1>
-            <span>We Do</span>
-            For your need
-          </h1>
+        <div class="banner-inner-box">
           <p>
             If you dream of designing a new home that takes full advantage.
-          </p>
-          <p>
-            <a class="cta-btn focus" href="#services" title="Our Services">
-              Our Services
-            </a>
-            <a class="cta-btn" href="#contactus" title="Get Quote">
-              Get Quote
-            </a>
+            <span class="author">- Someone</span>
           </p>
         </div>
-        <img class="worker-bg" src="../assets/workers.svg" alt="Alborj Manpower supply">
       </div>
     </div>
   </div>
@@ -27,93 +15,50 @@
 
 <style lang="scss" scoped>
 .banner {
-    background-color: var(--secondary-bg);
-    &-inner {
-      min-height: size(330);
-      background-image: url('../assets/banner_buildings.svg');
-      background-position: bottom left;
-      background-repeat: no-repeat;
-      background-size: 80%;
-      position: relative;
-      display: flex;
-      &-left {
-        padding: size(40) size(15);
-        padding-left: size(60);
-        margin-top: auto;
-      }
-      h1 {
-        font-size: size(30);
-        font-weight: 700;
-        margin-bottom: size(15);
-        span {
-          font-size: size(24);
-          display: block;
-        }
-      }
-      p {
-        font-size: size(18);
-        color: #222;
-        margin-bottom: size(10);
-      }
-      .worker-bg {
-        display: none;
-      }
-      .cta-btn {
-        font-size: size(14);
+  background: url('../assets/sub/service1.png') #43A0A6;
+  background-size: cover;
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #43A0A68F;
+  }
+  &-inner {
+    min-height: size(330);
+    position: relative;
+    display: flex;
+    &-box {
+      position: absolute;
+      bottom: size(20);
+      right: size(20);
+      padding: size(15);
+      background-color: rgba(116,157,123,0.85);
+      max-width: size(200);
+      color: #DFFF1C;
+      font-size: size(16);
+      line-height: 1.5;
+      .author {
+        display: block;
         font-weight: 500;
-        display: inline-block;
-        padding: size(10) size(15);
-        border: 1px solid #333;
-        border-radius: size(3);
-        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-        transition: all 0.3s ease 0s;
-        margin: size(15) size(10) size(15) 0;
-        cursor: pointer;
-        outline: none;
-        &.focus {
-          background-color: #fff;
-        }
-        &:hover {
-          box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
-          transform: translateY(size(-5));
-        }
-      }
-      @media screen and (min-width: size(768)) {
-        min-height: size(600);
-        background-size: size(650);
-        &-left {
-          padding-bottom: size(120);
-          padding-left: size(120);
-          max-width: size(400);
-        }
-        h1 {
-          font-size: size(48);
-          margin-bottom: size(25);
-          span {
-            font-size: size(40);
-          }
-        }
-        p {
-          font-size: size(24);
-          margin-bottom: size(20);
-        }
-        .worker-bg {
-          position: absolute;
-          bottom: size(-15);
-          right: size(15);
-          max-width: size(300);
-          display: block;
-        }
-        .cta-btn {
-          font-size: size(16);
-        }
-      }
-      @media (min-width: size(768)) and (max-width: size(991)) {
-        .worker-bg {
-          bottom: size(40);
-          right: size(-17);
-        }
+        font-style: italic;
+        text-align: center;
+        font-size: 80%;
       }
     }
+  }
+  @media screen and (min-width: $breakpoint-md) {
+    &-inner {
+      min-height: size(500);
+      &-box {
+        padding: size(30);
+        max-width: size(350);
+        font-size: size(24);
+      }
+    }
+  }
 }
 </style>

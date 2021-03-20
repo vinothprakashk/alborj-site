@@ -215,7 +215,8 @@ export default {
     &__box {
       display: flex;
       flex-direction: column;
-      background-color: #fff;
+      background: url("../assets/contact/contact_square_bg.svg") transparent;
+      background-size: cover;
       box-shadow: 0 1px 15px rgba(32, 33, 36, 0.28);
       padding: size(30) size(15);
       max-width: size(600);
