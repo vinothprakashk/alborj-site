@@ -8,18 +8,18 @@
         <div class="services-inner-group">
           <a title="Tips to change" href="/blogs/">
             <span class="img-placeholder" />
-            <span class="title">Contruction Consultant</span>
-            <span>The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled </span>
+            <span class="title">Reliable Solution for Manpower</span>
+            <span>We provide high-quality workers at the best price in the market. While we take care of your manpower needs, you can focus on your core business.</span>
           </a>
           <a title="Guide" href="/blogs/">
             <span class="img-placeholder" />
-            <span class="title">General Contracting</span>
-            <span>The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled </span>
+            <span class="title">Sub Contract for MEP</span>
+            <span>Our aim is to provide the best service to our clients through our qualified management personnel and site operatives alike.</span>
           </a>
           <a title="tips to extend" href="/blogs/">
             <span class="img-placeholder" />
-            <span class="title">Laminate Flooring</span>
-            <span>The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled </span>
+            <span class="title">Your Trustable Partner</span>
+            <span>Reach us anytime to get your manpower based on your requirements on demand.</span>
           </a>
         </div>
       </div>

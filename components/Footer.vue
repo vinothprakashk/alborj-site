@@ -11,19 +11,50 @@
           </div>
         </div>
         <div class="footer-inner-cols">
-          <h2>Contact</h2>
+          <h2>AL BORJ OIL FIELD SERVICES</h2>
+          <h3>AL BORJ INTERNATIONAL OIL FIELD SERVICES CO LLC</h3>
+          <p style="margin-bottom: 10px">
+            38181, SHARJAH, UAE
+          </p>
           <p>
-            Feel free to reach us! <br>
-            <a class="mobile-number" href="tel:971999999999" title="Call">
-              099999999
+            Tel: <br>
+            <a class="mobile-number" href="tel:971065659683" title="Call">
+              065659683
             </a>
           </p>
           <p>
-            <a href="mailto:info@alborjgroupuae.com" title="mailus">
-              info@alborjgroupuae.com
+            <a href="mailto:abofs@eim.ae" title="mailus">
+              abofs@eim.ae
             </a>
-            <a href="/" title="Alborj Group UAE">
-              www.alborjgroupuae.com
+            <a href="https://goo.gl/maps/BcfeSdbePb9K3f2a6" target="_blank" title="Directions">
+              Directions
+            </a>
+          </p>
+        </div>
+        <div class="footer-inner-cols">
+          <h3>AL RABWA ELEC &amp; MECH SERVICES LLC</h3>
+          <p style="margin-bottom: 10px">
+            28639, DUBAI, UAE
+          </p>
+          <p>
+            Tel: <br>
+            <a class="mobile-number" href="tel:971043932547" title="Call">
+              043932547
+            </a><br>
+            Fax:
+            <a class="mobile-number" href="tel:971043932548" title="Call">
+              043932548
+            </a>
+          </p>
+          <p>
+            <a href="mailto:alrabwaems@gmail.com" title="mailus">
+              alrabwaems@gmail.com
+            </a>
+            <a href="mailto:aremco@emirates.net.ae" title="mailus">
+              aremco@emirates.net.ae
+            </a>
+            <a href="https://goo.gl/maps/BcfeSdbePb9K3f2a6" target="_blank" title="Directions">
+              Directions
             </a>
           </p>
         </div>
@@ -125,6 +156,13 @@
         margin-bottom: size(10);
         color: #58585a;;
       }
+      h3 {
+        font-size: size(14);
+        line-height: 1;
+        font-weight: bold;
+        margin-bottom: size(10);
+        color: #e06565;
+      }
       p {
         font-size: size(16);
         line-height: size(20);
@@ -133,8 +171,8 @@
           line-height: var(--title-line-height);
           font-weight: bold;
           text-decoration: underline;
-          display: block;
-          margin: size(10) 0;
+          display: inline-block;
+          margin: size(5) 0;
         }
         a {
           display: block;

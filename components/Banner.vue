@@ -4,8 +4,8 @@
       <div class="banner-inner">
         <div class="banner-inner-box">
           <p>
-            If you dream of designing a new home that takes full advantage.
-            <span class="author">- Someone</span>
+            I believe in the Dignity of Labor, They build the DNA of each construction to complete in success for what our eyes saw
+            <span class="author">- Joseph Silvacruz, Managing Director of Al Borj Group UAE</span>
           </p>
         </div>
       </div>
@@ -16,7 +16,9 @@
 <style lang="scss" scoped>
 .banner {
   background: url('../assets/sub/service1.png') #43A0A6;
-  background-size: cover;
+  background-size: contain;
+  background-position: bottom left;
+  background-repeat: no-repeat;
   position: relative;
   &:before {
     content: '';

@@ -6,26 +6,26 @@
         <div class="choose-widget-group">
           <div class="group">
             <div class="group-item">
-              <h5>Reliability</h5>
-              <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print</p>
+              <h5>EXPERIENCE IN THIS FIELD</h5>
+              <p>Established in 2002, Being an expert in the manpower and subcontracting field, we know what exactly you want. Our expert team will take care of 100% successful mobilization procedures.</p>
             </div>
             <div class="group-item">
-              <h5>Reliability</h5>
-              <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print</p>
+              <h5>PRIORITY OF OUR WORKER'S HSEQ </h5>
+              <p>Compliance with Safety standards, regulations, and quality. Al Borj Group Employment Services drive a strong HSEQ culture amongst its employees through a comprehensive Quality and HSE Policy and Strategy leading to Zero Harm and Customer Satisfaction. Group life insurance covering worldwide and health insurance covering UAE.</p>
             </div>
             <div class="group-item">
-              <h5>Reliability</h5>
-              <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print</p>
+              <h5>COST-EFFECTIVENESS</h5>
+              <p>We provide high-quality workers at the best price in the market. It is operational and covers a broad spectrum of activities with experienced professionals and a highly qualified administration team who always proved in taking the most exacting jobs and in producing perfect results.</p>
             </div>
           </div>
           <div class="group">
             <div class="group-item">
-              <h5>Reliability</h5>
-              <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print</p>
+              <h5>MANPOWER FOR SHORT OR LONG TERM</h5>
+              <p>We can meet your immediate short or long-term manpower requirements according to your needs with the utmost professionalism. </p>
             </div>
             <div class="group-item">
-              <h5>Reliability</h5>
-              <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print</p>
+              <h5>AVAILABILITY OF LARGE SCALE OF WORKERS</h5>
+              <p>We are well capable of providing a large scale of skilled and semi-skilled workers from different countries like India, Pakistan, Nepal, and Bangladesh.</p>
             </div>
           </div>
         </div>

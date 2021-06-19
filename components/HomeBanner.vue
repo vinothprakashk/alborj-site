@@ -4,11 +4,11 @@
       <div class="banner-inner">
         <div class="banner-inner-left">
           <h1>
-            <span>We Do</span>
-            For your need
+            A Reliable Solution
+            <span>To Get Technical Manpower Supply</span>
           </h1>
           <p>
-            If you dream of designing a new home that takes full advantage.
+            Al Borj Group has the efficiency to offer Skilled and Semi-Skilled large scale manpower supply to growing business of Construction &amp; Oil and Gas Field.
           </p>
           <p>
             <a class="cta-btn focus" href="#services" title="Our Services">
@@ -42,16 +42,17 @@
         margin-top: auto;
       }
       h1 {
-        font-size: size(30);
+        font-size: size(18);
         font-weight: 700;
         margin-bottom: size(15);
         span {
-          font-size: size(24);
+          font-size: size(22);
           display: block;
         }
       }
       p {
         font-size: size(18);
+        line-height: 1.5;
         color: #222;
         margin-bottom: size(10);
       }
@@ -84,17 +85,17 @@
         &-left {
           padding-bottom: size(120);
           padding-left: size(120);
-          max-width: size(400);
+          max-width: size(600);
         }
         h1 {
-          font-size: size(48);
+          font-size: size(42);
           margin-bottom: size(25);
           span {
-            font-size: size(40);
+            font-size: size(32);
           }
         }
         p {
-          font-size: size(24);
+          font-size: size(22);
           margin-bottom: size(20);
         }
         .worker-bg {

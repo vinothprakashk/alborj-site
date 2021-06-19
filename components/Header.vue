@@ -17,7 +17,7 @@
               Contact Us
             </a>
             <a
-              href="#services"
+              href="/services"
               title="Services"
             >
               Services

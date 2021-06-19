@@ -3,7 +3,7 @@
     <div class="container">
       <div class="clients-widget">
         <h2>Our Clients World Wide</h2>
-        <img class="worker-bg" src="../assets/world_map.svg" alt="Globe">
+        <img class="worker-bg" src="../assets/united-arab-emirates.svg" alt="Globe">
         <div class="clients-widget-items">
           <div class="client-image-box">
             <img src="../assets/client.png" alt="client">
