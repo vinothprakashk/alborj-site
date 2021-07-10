@@ -2,7 +2,7 @@
   <div id="contact" class="contact">
     <div class="container">
       <div class="contact-inner">
-        <div class="contact-inner__box">
+        <div class="contact-inner__box wow animate__pulse" data-wow-duration="3s">
           <h3>Contact Us</h3>
           <div class="request-form">
             <form action="javascript:void(0);">

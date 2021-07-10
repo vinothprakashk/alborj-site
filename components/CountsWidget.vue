@@ -7,17 +7,23 @@
         <div class="counts-widget-group">
           <div class="group-item">
             <svg><use xlink:href="#counts_icon1" /></svg>
-            <h5>1784</h5>
+            <h5 class="wow count animate__fadeIn" data-count="1784">
+              0
+            </h5>
             <p>MEP Installation</p>
           </div>
           <div class="group-item">
             <svg><use xlink:href="#counts_icon1" /></svg>
-            <h5>1283</h5>
+            <h5 class="wow count animate__fadeIn" data-count="1283">
+              0
+            </h5>
             <p>Oil &amp; Gas Field</p>
           </div>
           <div class="group-item">
             <svg><use xlink:href="#counts_icon1" /></svg>
-            <h5>17</h5>
+            <h5 class="wow count animate__fadeIn" data-count="17">
+              0
+            </h5>
             <p>Sub Contract Projects</p>
           </div>
         </div>

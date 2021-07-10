@@ -133,6 +133,7 @@
     text-align: left;
     flex-direction: column;
     position: relative;
+    padding-top: size(15);
     @media screen and (min-width: $breakpoint-md) {
       flex-direction: row;
       justify-content: space-between;

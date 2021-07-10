@@ -6,17 +6,17 @@
           <h2>What We Do</h2>
         </div>
         <div class="services-inner-group">
-          <a title="Tips to change" href="/blogs/">
+          <a title="Tips to change" href="/blogs/" class="wow animate__fadeInLeft" data-wow-duration="2s">
             <span class="img-placeholder" />
             <span class="title">Reliable Solution for Manpower</span>
             <span>We provide high-quality workers at the best price in the market. While we take care of your manpower needs, you can focus on your core business.</span>
           </a>
-          <a title="Guide" href="/blogs/">
+          <a title="Guide" href="/blogs/" class="wow animate__fadeInUp" data-wow-duration="2s">
             <span class="img-placeholder" />
             <span class="title">Sub Contract for MEP</span>
             <span>Our aim is to provide the best service to our clients through our qualified management personnel and site operatives alike.</span>
           </a>
-          <a title="tips to extend" href="/blogs/">
+          <a title="tips to extend" href="/blogs/" class="wow animate__fadeInRight" data-wow-duration="2s">
             <span class="img-placeholder" />
             <span class="title">Your Trustable Partner</span>
             <span>Reach us anytime to get your manpower based on your requirements on demand.</span>

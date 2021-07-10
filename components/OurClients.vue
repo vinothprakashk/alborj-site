@@ -4,18 +4,102 @@
       <div class="clients-widget">
         <h2>Our Clients World Wide</h2>
         <img class="worker-bg" src="../assets/united-arab-emirates.svg" alt="Globe">
-        <div class="clients-widget-items">
-          <div class="client-image-box">
-            <img src="../assets/client.png" alt="client">
+        <div class="clients-widget-items owl-carousel">
+          <div class="client-widget-inner item">
+            <div class="client-image-box">
+              <img src="../assets/clients/ADPF - ABU DHABI.jpg" alt="ADPF - ABU DHABI">
+            </div>
           </div>
-          <div class="client-image-box">
-            <img src="../assets/client.png" alt="client">
+          <div class="client-widget-inner item">
+            <div class="client-image-box">
+              <img src="../assets/clients/ADYARD - ABU DHABI.jpg" alt="ADYARD - ABU DHABI">
+            </div>
           </div>
-          <div class="client-image-box">
-            <img src="../assets/client.png" alt="client">
+          <div class="client-widget-inner item">
+            <div class="client-image-box">
+              <img src="../assets/clients/AIRO LINK - DUBAI.png" alt="AIRO LINK - DUBAI.png">
+            </div>
           </div>
-          <div class="client-image-box">
-            <img src="../assets/client.png" alt="client">
+          <div class="client-widget-inner item">
+            <div class="client-image-box">
+              <img src="../assets/clients/AKINS - DUBAI.png" alt="AKINS - DUBAI">
+            </div>
+          </div>
+          <div class="client-widget-inner item">
+            <div class="client-image-box">
+              <img src="../assets/clients/AL FUTTAIM - DUBAI.jpg" alt="AL FUTTAIM - DUBAI">
+            </div>
+          </div>
+          <div class="client-widget-inner item">
+            <div class="client-image-box">
+              <img src="../assets/clients/AL TAYER - DUBAI.png" alt="AL TAYER - DUBAI">
+            </div>
+          </div>
+          <div class="client-widget-inner item">
+            <div class="client-image-box">
+              <img src="../assets/clients/ALEC - DUBAI.jpg" alt="ALEC - DUBAI">
+            </div>
+          </div>
+          <div class="client-widget-inner item">
+            <div class="client-image-box">
+              <img src="../assets/clients/ALEMCO - DUBAI.jpg" alt="ALEMCO - DUBAI">
+            </div>
+          </div>
+          <div class="client-widget-inner item">
+            <div class="client-image-box">
+              <img src="../assets/clients/AMANA - ABU DHABI.png" alt="AMANA - ABU DHABI">
+            </div>
+          </div>
+          <div class="client-widget-inner item">
+            <div class="client-image-box">
+              <img src="../assets/clients/BINGHATTI - DUBAI.jpg" alt="BINGHATTI - DUBAI">
+            </div>
+          </div>
+          <div class="client-widget-inner item">
+            <div class="client-image-box">
+              <img
+                src="../assets/clients/CHINA STATE CONSTRUCTION ENGINEERING CORPORATION (CSCEC) -  DUBAI.png"
+                alt="CHINA STATE CONSTRUCTION ENGINEERING CORPORATION (CSCEC) -  DUBAI"
+              >
+            </div>
+          </div>
+          <div class="client-widget-inner item">
+            <div class="client-image-box">
+              <img src="../assets/clients/CROWN HOUSE - DUBAI.jpg" alt="CROWN HOUSE - DUBAI">
+            </div>
+          </div>
+          <div class="client-widget-inner item">
+            <div class="client-image-box">
+              <img src="../assets/clients/DANWAY - DUBAI.jpg" alt="DANWAY - DUBAI">
+            </div>
+          </div>
+          <div class="client-widget-inner item">
+            <div class="client-image-box">
+              <img src="../assets/clients/EVERSENDAI - DUBAI.png" alt="EVERSENDAI - DUBAI">
+            </div>
+          </div>
+          <div class="client-widget-inner item">
+            <div class="client-image-box">
+              <img src="../assets/clients/JLW - DUBAI.png" alt="JLW - DUBAI">
+            </div>
+          </div>
+          <div class="client-widget-inner item">
+            <div class="client-image-box">
+              <img src="../assets/clients/Laing O_Rourke - DUBAI.png" alt="Laing O_Rourke - DUBAI">
+            </div>
+          </div>
+          <div class="client-widget-inner item">
+            <div class="client-image-box">
+              <img
+                src="../assets/clients/UNIVERSAL VOLTAS - ABU DHABI.png"
+                alt="UNIVERSAL VOLTAS - ABU DHABI"
+              >
+            </div>
+          </div>
+          <div class="client-widget-inner item">
+            <div class="client-image-box">
+              <img src="../assets/clients/ZENER STEWARD - DUBAI.png" alt="ZENER STEWARD - DUBAI">
+            </div>
           </div>
         </div>
       </div>
@@ -75,17 +159,22 @@
       max-width: 100%;
     }
     &-items {
-      display: flex;
-      flex-flow: row;
-      column-gap: size(30);
-      justify-content: space-between;
+      .client-widget-inner {
+        padding: size(5) size(15);
+      }
       .client-image-box {
         box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
         padding: size(5) size(5);
         text-align: center;
         background-color: var(--regular-text-inv);
+        min-height: size(210);
+        display: flex;
+        justify-items: center;
+        min-width: size(210);
         img {
           max-width: 100%;
+          max-height: size(210);
+          object-fit: contain;
         }
       }
     }

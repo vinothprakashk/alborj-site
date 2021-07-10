@@ -27,7 +27,15 @@ export default {
       { name: 'google-site-verification', content: '-n8Sms-rpS7E6sNkZKWjowhe2fez6LYcuZDmNzNntnU' }
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/favicon.png' }
+      { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' },
+      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' }
+    ],
+
+    script: [
+      { hid: 'wow', src: 'https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js', defer: true },
+      { hid: 'owlcarousel', src: 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js', defer: true },
+      { hid: 'jquery', src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js' }
     ]
   },
 

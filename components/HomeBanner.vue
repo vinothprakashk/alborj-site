@@ -3,21 +3,23 @@
     <div class="container">
       <div class="banner-inner">
         <div class="banner-inner-left">
-          <h1>
+          <h1 class="wow animate__fadeInDown" data-wow-duration="2s">
             A Reliable Solution
             <span>To Get Technical Manpower Supply</span>
           </h1>
-          <p>
-            Al Borj Group has the efficiency to offer Skilled and Semi-Skilled large scale manpower supply to growing business of Construction &amp; Oil and Gas Field.
-          </p>
-          <p>
-            <a class="cta-btn focus" href="#services" title="Our Services">
-              Our Services
-            </a>
-            <a class="cta-btn" href="#contactus" title="Get Quote">
-              Get Quote
-            </a>
-          </p>
+          <div class="wow animate__fadeInUp" data-wow-duration="2s">
+            <p>
+              Al Borj Group has the efficiency to offer Skilled and Semi-Skilled large scale manpower supply to growing business of Construction &amp; Oil and Gas Field.
+            </p>
+            <p>
+              <a class="cta-btn focus" href="#services" title="Our Services" data-wow-duration="2s" data-wow-delay="2s">
+                Our Services
+              </a>
+              <a class="cta-btn" href="#contactus" title="Get Quote" data-wow-duration="2s" data-wow-delay="2s">
+                Get Quote
+              </a>
+            </p>
+          </div>
         </div>
         <img class="worker-bg" src="../assets/workers.svg" alt="Alborj Manpower supply">
       </div>
