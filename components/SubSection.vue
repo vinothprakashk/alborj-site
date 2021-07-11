@@ -96,7 +96,7 @@ export default {
     &-inner {
       display: flex;
       flex-direction: row;
-      margin: size(60);
+      margin: size(45) auto;
       &.reverse {
         .subsection-inner-content {
           order: 2;

@@ -113,7 +113,7 @@
     }
     &-group {
       display: flex;
-      flex-flow: row;
+      flex-flow: column;
       justify-content: space-between;
       padding-top: var(--choose-group--padding-top);
       column-gap: size(25);
@@ -158,6 +158,7 @@
     }
     @media screen and (min-width: $breakpoint-md) {
       &-group {
+        flex-flow: row;
         .group-item {
           margin-bottom: size(30);
         }

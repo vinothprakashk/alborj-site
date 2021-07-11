@@ -1,5 +1,5 @@
 <template>
-  <div id="contact" class="contact">
+  <div id="contactus" class="contact">
     <div class="container">
       <div class="contact-inner">
         <div class="contact-inner__box wow animate__pulse" data-wow-duration="3s">

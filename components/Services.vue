@@ -171,6 +171,7 @@
         a {
           max-width: size(350);
           margin: 0;
+          flex-basis: 30%;
         }
       }
     }

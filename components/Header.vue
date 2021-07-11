@@ -11,16 +11,22 @@
         <div class="header-right">
           <div class="header-right-links">
             <a
-              href="#contactus"
-              title="Contact Us"
+              href="/about-us"
+              title="Who we are"
             >
-              Contact Us
+              Who we are
             </a>
             <a
               href="/services"
               title="Services"
             >
               Services
+            </a>
+            <a
+              href="/careers"
+              title="Careers"
+            >
+              Careers
             </a>
           </div>
         </div>

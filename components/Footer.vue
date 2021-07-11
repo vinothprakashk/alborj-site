@@ -11,21 +11,24 @@
           </div>
         </div>
         <div class="footer-inner-cols">
-          <h2>AL BORJ OIL FIELD SERVICES</h2>
           <h3>AL BORJ INTERNATIONAL OIL FIELD SERVICES CO LLC</h3>
           <p style="margin-bottom: 10px">
             38181, SHARJAH, UAE
           </p>
           <p>
-            Tel: <br>
+            <svg><use xlink:href="#phone1" /></svg>
             <a class="mobile-number" href="tel:971065659683" title="Call">
               065659683
             </a>
           </p>
           <p>
+            <svg><use xlink:href="#mail" /></svg>
             <a href="mailto:abofs@eim.ae" title="mailus">
               abofs@eim.ae
             </a>
+          </p>
+          <p>
+            <svg><use xlink:href="#map" /></svg>
             <a href="https://goo.gl/maps/BcfeSdbePb9K3f2a6" target="_blank" title="Directions">
               Directions
             </a>
@@ -37,22 +40,27 @@
             28639, DUBAI, UAE
           </p>
           <p>
-            Tel: <br>
+            <svg><use xlink:href="#phone1" /></svg>
             <a class="mobile-number" href="tel:971043932547" title="Call">
               043932547
             </a><br>
-            Fax:
+            <svg><use xlink:href="#fax" /></svg>
             <a class="mobile-number" href="tel:971043932548" title="Call">
               043932548
             </a>
           </p>
           <p>
+            <svg><use xlink:href="#mail" /></svg>
             <a href="mailto:alrabwaems@gmail.com" title="mailus">
               alrabwaems@gmail.com
-            </a>
+            </a><br>
+            <svg><use xlink:href="#mail" /></svg>
             <a href="mailto:aremco@emirates.net.ae" title="mailus">
               aremco@emirates.net.ae
             </a>
+          </p>
+          <p>
+            <svg><use xlink:href="#map" /></svg>
             <a href="https://goo.gl/maps/BcfeSdbePb9K3f2a6" target="_blank" title="Directions">
               Directions
             </a>
@@ -62,23 +70,35 @@
           <h2>Our Services</h2>
           <ul class="footer-inner-list dual-col">
             <li>
-              <a href="#about" title="About Us">
-                Sub Contracting
+              <a
+                href="/about-us"
+                title="Who we are"
+              >
+                Who we are
               </a>
             </li>
             <li>
-              <a href="/blogs/" title="About Us">
-                Man power supply
+              <a
+                href="/services"
+                title="Services"
+              >
+                Services
               </a>
             </li>
             <li>
-              <a href="#about" title="About Us">
-                Other Services
+              <a
+                href="/careers"
+                title="Careers"
+              >
+                Careers
               </a>
             </li>
             <li>
-              <a href="#about" title="About Us">
-                Lore ipsum
+              <a
+                href="#contactus"
+                title="Contact Us"
+              >
+                Contact Us
               </a>
             </li>
           </ul>
@@ -150,6 +170,7 @@
     }
     &-cols {
       margin-bottom: size(20);
+      padding-right: size(15);
       h2 {
         font-size: var(--title-font-size);
         line-height: var(--title-line-height);
@@ -167,6 +188,13 @@
       p {
         font-size: size(16);
         line-height: size(20);
+        margin-bottom: size(10);
+        svg {
+          width: size(25);
+          height: size(25);
+          vertical-align: middle;
+          margin-right: size(7);
+        }
         .mobile-number {
           font-size: var(--title-font-size);
           line-height: var(--title-line-height);
@@ -176,8 +204,9 @@
           margin: size(5) 0;
         }
         a {
-          display: block;
+          display: inline-block;
           padding: size(5) 0;
+          vertical-align: middle;
         }
       }
       .footer-inner-list {

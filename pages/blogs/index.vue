@@ -3,7 +3,7 @@
     <Banner />
     <sub-section />
     <sub-section :rev-order="true">
-      <img class="worker-bg" src="../../assets/sub/manpower.png" alt="Alborj Contract">
+      <img class="worker-bg" src="../../assets/sub/man_power.png" alt="Alborj Contract">
     </sub-section>
     <Contact />
   </div>

@@ -77,7 +77,8 @@ export default () => {
   }
 
   $(window).on('load', function() {
-    $('.owl-carousel').owlCarousel({
+
+    $('.owl-carousel').not('.job-list').owlCarousel({
       autoplay: true,
       autoplayTimeout: 2000,
       autoplayHoverPause: true,

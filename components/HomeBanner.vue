@@ -31,7 +31,7 @@
 .banner {
     background-color: var(--secondary-bg);
     &-inner {
-      min-height: size(330);
+      min-height: size(425);
       background-image: url('../assets/banner_buildings.svg');
       background-position: bottom left;
       background-repeat: no-repeat;
@@ -48,12 +48,11 @@
         font-weight: 700;
         margin-bottom: size(15);
         span {
-          font-size: size(22);
           display: block;
         }
       }
       p {
-        font-size: size(18);
+        font-size: size(16);
         line-height: 1.5;
         color: #222;
         margin-bottom: size(10);
