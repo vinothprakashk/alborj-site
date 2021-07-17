@@ -9,16 +9,6 @@
               <h5>EXPERIENCE IN THIS FIELD</h5>
               <p>Established in 2002, Being an expert in the manpower and subcontracting field, we know what exactly you want. Our expert team will take care of 100% successful mobilization procedures.</p>
             </div>
-            <div class="group-item wow animate__fadeInLeft" data-wow-duration="2s">
-              <h5>PRIORITY OF OUR WORKER'S HSEQ </h5>
-              <p>Compliance with Safety standards, regulations, and quality. Al Borj Group Employment Services drive a strong HSEQ culture amongst its employees through a comprehensive Quality and HSE Policy and Strategy leading to Zero Harm and Customer Satisfaction. Group life insurance covering worldwide and health insurance covering UAE.</p>
-            </div>
-            <div class="group-item wow animate__fadeInUp" data-wow-duration="2s">
-              <h5>COST-EFFECTIVENESS</h5>
-              <p>We provide high-quality workers at the best price in the market. It is operational and covers a broad spectrum of activities with experienced professionals and a highly qualified administration team who always proved in taking the most exacting jobs and in producing perfect results.</p>
-            </div>
-          </div>
-          <div class="group">
             <div class="group-item wow animate__fadeInDown" data-wow-duration="2s">
               <h5>MANPOWER FOR SHORT OR LONG TERM</h5>
               <p>We can meet your immediate short or long-term manpower requirements according to your needs with the utmost professionalism. </p>
@@ -26,6 +16,16 @@
             <div class="group-item wow animate__fadeInUp" data-wow-duration="2s">
               <h5>AVAILABILITY OF LARGE SCALE OF WORKERS</h5>
               <p>We are well capable of providing a large scale of skilled and semi-skilled workers from different countries like India, Pakistan, Nepal, and Bangladesh.</p>
+            </div>
+          </div>
+          <div class="group">
+            <div class="group-item wow animate__fadeInLeft" data-wow-duration="2s">
+              <h5>PRIORITY OF OUR WORKER'S HSEQ </h5>
+              <p>Compliance with Safety standards, regulations, and quality. Al Borj Group Employment Services drive a strong HSEQ culture amongst its employees through a comprehensive Quality and HSE Policy and Strategy leading to Zero Harm and Customer Satisfaction. Group life insurance covering worldwide and health insurance covering UAE.</p>
+            </div>
+            <div class="group-item wow animate__fadeInUp" data-wow-duration="2s">
+              <h5>COST-EFFECTIVENESS</h5>
+              <p>We provide high-quality workers at the best price in the market. It is operational and covers a broad spectrum of activities with experienced professionals and a highly qualified administration team who always proved in taking the most exacting jobs and in producing perfect results.</p>
             </div>
           </div>
         </div>
@@ -43,10 +43,10 @@
   --choose-group--padding-top: #{size(40)};
 
   --group--title--font-size: #{size(16)};
-  --group--title--line-height: #{size(20)};
+  --group--title--line-height: #{size(22)};
 
   --group-desc-font-size: #{size(14)};
-  --group-desc-line-height: #{size(18)};
+  --group-desc-line-height: #{size(20)};
 
   @media screen and (min-width: $breakpoint-lg) {
     --choose-title-font-size: #{size(36)};
@@ -54,10 +54,10 @@
 
     --choose-group--padding-top: #{size(80)};
     --group--title--font-size: #{size(18)};
-    --group--title--line-height: #{size(24)};
+    --group--title--line-height: #{size(26)};
 
     --group-desc-font-size: #{size(16)};
-    --group-desc-line-height: #{size(20)};
+    --group-desc-line-height: #{size(22)};
   }
 
   width: 100%;
@@ -94,13 +94,13 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      background: url("../assets/polygon_image.png") transparent no-repeat center;
-      background-size: contain;
       @media screen and (min-width: $breakpoint-md) {
+        background: url("../assets/polygon_image.png") transparent no-repeat center;
+        background-size: contain;
         width: size(400);
         height: size(400);
       }
-      @media screen and (min-width: $breakpoint-md) {
+      @media screen and (min-width: $breakpoint-lg) {
         width: size(550);
         height: size(550);
       }
@@ -147,6 +147,7 @@
           font-size: var(--group-desc-font-size);
           line-height: var(--group-desc-line-height);
           font-weight: 400;
+          color: #5a5a5a;
         }
         &:last-child{
           margin-bottom: 0;

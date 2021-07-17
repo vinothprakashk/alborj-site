@@ -1,11 +1,11 @@
 <template>
-  <div class="banner">
+  <div :class="['banner', onlyContent ? 'only-content': '', customClass]">
     <div class="container">
       <div class="banner-inner">
         <div class="banner-inner-left">
           <h1>{{ title }}</h1>
           <p>
-            AL BORJ OIL FIELD SERVICES is one of the reputed manpower supply and MEP subcontracting company in Dubai, UAE
+            {{ description }}
           </p>
         </div>
         <div class="banner-inner-box">
@@ -26,6 +26,18 @@ export default {
     title: {
       type: String,
       default: 'Who we are'
+    },
+    description: {
+      type: String,
+      default: 'AL BORJ OIL FIELD SERVICES is one of the reputed manpower supply and MEP subcontracting company in Dubai, UAE'
+    },
+    onlyContent: {
+      type: Boolean,
+      default: false
+    },
+    customClass: {
+      type: String,
+      default: ''
     }
   }
 }
@@ -33,9 +45,9 @@ export default {
 
 <style lang="scss" scoped>
 .banner {
-  background: url('../assets/sub/service1.png') #43A0A6;
-  background-size: contain;
-  background-position: bottom left;
+  background: url('../assets/sub/service1.png') #3aa6cd;
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
   position: relative;
   &:before {
@@ -46,6 +58,32 @@ export default {
     width: 100%;
     height: 100%;
     background-color: #43A0A68F;
+  }
+  &.only-content {
+    background: #3aa6cd;
+    .banner-inner {
+      min-height: 0;
+      &-box {
+        display: none;
+      }
+      &-left {
+        padding: size(150) 0 size(80) 0;
+        position: relative;
+        top: auto;
+        transform: none;
+        display: flex;
+        flex-flow: column;
+      }
+    }
+    &.joinus {
+      background: url('../assets/sub/join_us.png') #3aa6cd;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      &:before {
+        background-color: #1919194a;
+      }
+    }
   }
   &-inner {
     min-height: size(330);
@@ -59,6 +97,7 @@ export default {
         font-size: size(42);
         margin-bottom: size(25);
         font-weight: bold;
+        text-transform: capitalize;
       }
       p {
         font-size: size(18);
@@ -71,7 +110,7 @@ export default {
       bottom: size(20);
       right: size(20);
       padding: size(15);
-      background-color: rgba(116,157,123,0.85);
+      background-color: rgba(116,157,123,0.65);
       max-width: size(200);
       color: #DFFF1C;
       font-size: size(16);
@@ -82,6 +121,7 @@ export default {
         font-style: italic;
         text-align: center;
         font-size: 80%;
+        color: #dcdcdc;
       }
     }
   }
@@ -98,7 +138,7 @@ export default {
       &-box {
         padding: size(30);
         max-width: size(350);
-        font-size: size(24);
+        font-size: size(18);
       }
     }
   }

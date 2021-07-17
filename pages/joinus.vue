@@ -1,16 +1,13 @@
 <template>
   <div>
-    <Banner :title="'Our Careers'" />
+    <Banner :title="'Join Our Team'" :only-content="true" :description="careers[0].desc" :custom-class="'joinus'" />
     <div class="container">
       <div class="common__content">
-        <p class="align-center">
+        <!-- <p class="align-center">
           <span class="common__title">
             {{ careers[0].title }}
           </span>
-        </p>
-        <p>
-          {{ careers[0].desc }}
-        </p>
+        </p> -->
         <div class="job-list">
           <template v-for="(service, index) in careers[0].list">
             <div :key="index" class="job-item item">
@@ -101,6 +98,11 @@ export default {
 .common__content p {
   text-align: center;
 }
+.alborj-logo {
+  #logo-name {
+    fill: #fff !important;
+  }
+}
 </style>
 
 <style lang="scss" scoped>
@@ -114,6 +116,11 @@ export default {
   @media screen and (min-width: $breakpoint-md) {
     flex-flow: row;
     column-gap: size(30);
+    background: url("../assets/services/bg_shape.png") transparent no-repeat;
+    background-position: bottom size(50) right 0;
+    background-size: size(315);
+    padding-bottom: size(100);
+    padding-right: size(60);
 
     .job-item {
       flex-basis: 50%;

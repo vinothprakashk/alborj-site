@@ -57,6 +57,7 @@ export default {
       }
       p {
         font-size: size(16);
+        line-height: size(22);
         font-weight: 500;
         margin-bottom: size(15);
       }

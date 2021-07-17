@@ -28,6 +28,12 @@
             </a>
           </p>
           <p>
+            <svg><use xlink:href="#mail" /></svg>
+            <a href="mailto:info@alborjgroupuae.com" title="mailus">
+              info@alborjgroupuae.com
+            </a>
+          </p>
+          <p>
             <svg><use xlink:href="#map" /></svg>
             <a href="https://goo.gl/maps/BcfeSdbePb9K3f2a6" target="_blank" title="Directions">
               Directions
@@ -61,7 +67,7 @@
           </p>
           <p>
             <svg><use xlink:href="#map" /></svg>
-            <a href="https://goo.gl/maps/BcfeSdbePb9K3f2a6" target="_blank" title="Directions">
+            <a href="https://goo.gl/maps/LxHmqjprx6JyZdqg9" target="_blank" title="Directions">
               Directions
             </a>
           </p>
@@ -87,10 +93,10 @@
             </li>
             <li>
               <a
-                href="/careers"
-                title="Careers"
+                href="/joinus"
+                title="joinus"
               >
-                Careers
+                Join Us
               </a>
             </li>
             <li>
@@ -108,7 +114,7 @@
     <div class="footer-bottom">
       <div class="container">
         <div class="footer-bottom-inner">
-          @copyrights 2021 - Alborj Group UAE
+          © Copyrights 2021 - Alborj Group UAE
         </div>
       </div>
     </div>

@@ -31,6 +31,9 @@
       font-size: var(--common-para-font-size);
       line-height: var(--common-para-line-height);
       margin-bottom: size(15);
+      strong {
+        font-weight: 700;
+      }
     }
     .objectives {
       padding: size(40) 0;

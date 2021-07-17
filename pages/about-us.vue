@@ -7,17 +7,24 @@
           WHO WE ARE
         </h1>
         <p>
-          AL BORJ OIL FIELD SERVICES is one of the reputed manpower supply and MEP subcontracting company in Dubai, UAE formed in 2002, has been actively providing qualified, trained, and skilled manpower, Human Resources, and support services solutions to a diversified industry domain covering Fabrication and Construction Yards, Plant Maintenance Services – Industrial, Power, Steel, Cement, Oil, and Gas Construction projects – Greenfield and brownfield, Onshore and Offshore Marine Industry &amp; Shipyards.
+          <strong>AL BORJ OIL FIELD SERVICES</strong> is one of the reputed manpower supply and MEP subcontracting company in Dubai, UAE formed in 2002, has been actively providing qualified, trained, and skilled manpower, Human Resources, and support services solutions to a diversified industry domain covering Fabrication and Construction Yards, Plant Maintenance Services – Industrial, Power, Steel, Cement, Oil, and Gas Construction projects – Greenfield and brownfield, Onshore and Offshore Marine Industry &amp; Shipyards.
         </p>
         <p>
           From the very early stages the company undertook sub-contract works in the industrial sector in Electro-Mechanical and Civil with the increase in skilled manpower, the company diversified its activities in the Oilfield and Marine Sectors. With a strong and professionally managed infrastructure, Al Borj has now proved to be capable of meeting all our client’s requirements in terms of manpower and subcontracting. Our teams of technicians are very well qualified, and have an excellent work history with reputed multinational companies, and have been deployed in various sites of major turnkey projects.
         </p>
-        <p>
-          In addition, AL RABWA ELECTRICAL &amp; MECHANICAL SERVICES LLC, Dubai, a reputed company established in 1985 is now under our management and very proud to denote the skills of the experienced workers of this company. We have more than 500 numbers of experienced skilled and semi-skilled workers from different countries.
-        </p>
-        <p>
-          Our Customer Relations Department to ensure total customer satisfaction. This division mainly deals with all customer requirements concerning mobilization, demobilization of manpower, safety materials and prompt replacement of any worker that our clients feel is not productive.Another unique aspect we have is our safety measures. All our workers are protected by Full Insurance coverage throughout the United Arab Emirates
-        </p>
+        <div class="another-company">
+          <div class="left-image">
+            <img src="../assets/aremco_logo.jpg" alt="Aremco">
+          </div>
+          <div class="right-content">
+            <p>
+              <strong>AL RABWA ELECTRICAL &amp; MECHANICAL SERVICES LLC</strong>, Dubai, a reputed company established in 1985 and it’s a subsidiary of Al Borj Group. The group company originated in 2006 and is very proud to denote the skills of the experienced workers of this company. We have more than 500 numbers of experienced skilled and semi-skilled workers from different countries.
+            </p>
+            <p>
+              Our Customer Relations Department to ensure total customer satisfaction. This division mainly deals with all customer requirements concerning mobilization, demobilization of manpower, safety materials and prompt replacement of any worker that our clients feel is not productive.Another unique aspect we have is our safety measures. All our workers are protected by Full Insurance coverage throughout the United Arab Emirates
+            </p>
+          </div>
+        </div>
         <div class="objectives">
           <h3>OUR OBJECTIVES</h3>
           <div class="objectives-list">
@@ -105,4 +112,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.another-company {
+  @media screen and (min-width: $breakpoint-md) {
+    display: flex;
+    column-gap: size(40);
+    margin-top: size(60);
+  }
+}
 </style>

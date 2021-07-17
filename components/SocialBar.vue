@@ -6,7 +6,7 @@
       </div>
       <div class="socialbar-inner-social">
         <a
-          href="#"
+          href="https://www.linkedin.com/company/al-borj-international-oil-field-services-co-llc"
           target="_blank"
           rel="noopener noreferrer"
           title="Twitter"
@@ -14,7 +14,7 @@
           <svg><use xlink:href="#twitter" /></svg>
         </a>
         <a
-          href="#"
+          href="https://www.linkedin.com/company/al-borj-international-oil-field-services-co-llc"
           target="_blank"
           rel="noopener noreferrer"
           title="Facebook"
@@ -22,7 +22,7 @@
           <svg><use xlink:href="#facebook" /></svg>
         </a>
         <a
-          href="https://www.instagram.com/#/"
+          href="https://www.linkedin.com/company/al-borj-international-oil-field-services-co-llc"
           target="_blank"
           rel="noopener noreferrer"
           title="Instagram"
@@ -30,7 +30,7 @@
           <svg><use xlink:href="#instagram" /></svg>
         </a>
         <a
-          href="#"
+          href="https://www.linkedin.com/company/al-borj-international-oil-field-services-co-llc"
           target="_blank"
           rel="noopener noreferrer"
           title="Linkedin"

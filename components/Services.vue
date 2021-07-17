@@ -6,21 +6,21 @@
           <h2>What We Do</h2>
         </div>
         <div class="services-inner-group">
-          <a title="Tips to change" href="/blogs/" class="wow animate__fadeInLeft" data-wow-duration="2s">
+          <div class="wow animate__fadeInLeft" data-wow-duration="2s">
             <span class="img-placeholder" />
             <span class="title">Reliable Solution for Manpower</span>
             <span>We provide high-quality workers at the best price in the market. While we take care of your manpower needs, you can focus on your core business.</span>
-          </a>
-          <a title="Guide" href="/blogs/" class="wow animate__fadeInUp" data-wow-duration="2s">
+          </div>
+          <div class="wow animate__fadeInUp" data-wow-duration="2s">
             <span class="img-placeholder" />
             <span class="title">Sub Contract for MEP</span>
             <span>Our aim is to provide the best service to our clients through our qualified management personnel and site operatives alike.</span>
-          </a>
-          <a title="tips to extend" href="/blogs/" class="wow animate__fadeInRight" data-wow-duration="2s">
+          </div>
+          <div class="wow animate__fadeInRight" data-wow-duration="2s">
             <span class="img-placeholder" />
             <span class="title">Your Trustable Partner</span>
             <span>Reach us anytime to get your manpower based on your requirements on demand.</span>
-          </a>
+          </div>
         </div>
       </div>
     </div>
@@ -110,7 +110,7 @@
       display: flex;
       flex-wrap: wrap;
       flex-grow: 1;
-      a {
+      > div {
         flex-grow: 1;
         text-align: center;
         margin: 0 auto size(20) auto;
@@ -130,6 +130,9 @@
           font-size: var(--blog-font-size);
           line-height: var(--blog-line-height);
           margin: 0 auto;
+          &:not(.title) {
+            color: #5a5a5a;
+          }
           &.title {
             font-size: var(--services-subtitle-font-size);
             line-height: var(--services-subtitle-line-height);
@@ -153,12 +156,12 @@
         }
         &:nth-child(2) {
           .img-placeholder {
-            background-image: url("../assets/services/machine.png");
+            background-image: url("../assets/services/subcontract.png");
           }
         }
         &:nth-child(3) {
           .img-placeholder {
-            background-image: url("../assets/services/workers.png");
+            background-image: url("../assets/services/trust.png");
           }
         }
       }
@@ -168,7 +171,7 @@
         text-align: center;
         column-gap: 3%;
         flex-wrap: inherit;
-        a {
+        > div {
           max-width: size(350);
           margin: 0;
           flex-basis: 30%;

@@ -1,7 +1,10 @@
 <template>
   <div>
-    <Banner :title="'Services'" />
-    <sub-section :title="subSections[0].title" :desc="subSections[0].desc" />
+    <Banner :title="'Services'" :only-content="true" />
+    <sub-section :title="subSections[0].title" :desc="subSections[0].desc" :rev-order="true">
+      <img class="worker-bg" src="../assets/sub/man_power.png" alt="Alborj Contract">
+    </sub-section>
+    <sub-section :title="subSections[1].title" :desc="subSections[1].desc" />
     <div class="container">
       <p class="align-center">
         <span class="common__title">
@@ -46,9 +49,6 @@
         </template>
       </div>
     </div>
-    <sub-section :title="subSections[1].title" :desc="subSections[1].desc" :rev-order="true">
-      <img class="worker-bg" src="../assets/sub/man_power.png" alt="Alborj Contract">
-    </sub-section>
     <Contact />
   </div>
 </template>
