@@ -1,6 +1,8 @@
 <template>
   <div v-if="loading" class="loading-page">
-    <p>Loading...</p>
+    <div class="wow animate__zoomIn" data-wow-duration="1s" data-wow-iteration="10" data-transition-delay="1s">
+      <Logo class="loader_logo" />
+    </div>
   </div>
 </template>
 
@@ -22,6 +24,14 @@ export default {
 }
 </script>
 
+<style lang="scss">
+.loader_logo {
+  height: size(150);
+  path {
+    fill: #fff;
+  }
+}
+</style>
 <style scoped>
   .loading-page {
     position: fixed;

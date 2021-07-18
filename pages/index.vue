@@ -12,24 +12,24 @@
 <script>
 export default {
   head: {
-    title: 'Alborj Group UAE | Manpower Service Providers in UAE',
+    title: 'AL BORJ OIL FIELD SERVICES | manpower supply and MEP subcontracting company in Dubai, UAE',
     meta: [
       {
         hid: 'description',
         name: 'description',
-        content: 'Alborj Group UAE | specialize in car battery replacement, flat tire servicing, fuel delivery, towing service and jump start services in UAE'
+        content: 'Al Borj Group has the efficiency to offer Skilled and Semi-Skilled large scale manpower supply to growing business of Construction & Oil and Gas Field. '
       },
 
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Alborj Group UAE | Manpower Service Providers in UAE'
+        content: 'AL BORJ OIL FIELD SERVICES | manpower supply and MEP subcontracting company in Dubai, UAE'
       },
 
       {
         hid: 'og:description',
         property: 'og:description',
-        content: 'Alborj Group UAE | specialize in car battery replacement, flat tire servicing, fuel delivery, towing service and jump start services in UAE'
+        content: 'Al Borj Group has the efficiency to offer Skilled and Semi-Skilled large scale manpower supply to growing business of Construction & Oil and Gas Field. '
       }
     ]
   }

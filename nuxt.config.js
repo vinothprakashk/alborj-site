@@ -1,7 +1,7 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'Alborj Group UAE | Manpower Service Providers in UAE',
+    title: 'AL BORJ OIL FIELD SERVICES | manpower supply and MEP subcontracting company in Dubai, UAE',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1' },
@@ -9,18 +9,18 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Alborj Group UAE | specialize in car battery replacement, flat tire servicing, fuel delivery, towing service and jump start services in UAE'
+        content: 'Al Borj Group has the efficiency to offer Skilled and Semi-Skilled large scale manpower supply to growing business of Construction & Oil and Gas Field. '
       },
       {
         hid: 'og:title',
         name: 'description',
-        content: 'Alborj Group UAE | Manpower Service Providers in UAE'
+        content: 'AL BORJ OIL FIELD SERVICES | manpower supply and MEP subcontracting company in Dubai, UAE'
       },
 
       {
         hid: 'og:description',
         name: 'description',
-        content: 'Alborj Group UAE | specialize in car battery replacement, flat tire servicing, fuel delivery, towing service and jump start services in UAE'
+        content: 'Al Borj Group has the efficiency to offer Skilled and Semi-Skilled large scale manpower supply to growing business of Construction & Oil and Gas Field. '
       },
       { hid: 'og:image', property: 'og:image', content: '/og-image.png' },
 
@@ -53,12 +53,6 @@ export default {
   ],
 
   loading: '~/components/LoadingBar.vue',
-
-  loadingIndicator: {
-    name: 'circle',
-    color: '#3B8070',
-    background: 'white'
-  },
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [{

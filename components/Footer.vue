@@ -73,7 +73,6 @@
           </p>
         </div>
         <div class="footer-inner-cols">
-          <h2>Our Services</h2>
           <ul class="footer-inner-list dual-col">
             <li>
               <a
@@ -227,6 +226,7 @@
           font-weight: 500;
           padding: size(10) 0;
           display: block;
+          text-transform: capitalize;
           &:hover {
             text-decoration: underline;
           }
