@@ -11,6 +11,12 @@
         <div class="header-right">
           <div class="header-right-links">
             <a
+              href="/"
+              title="Home"
+            >
+              Home
+            </a>
+            <a
               href="/about-us"
               title="Who we are"
             >

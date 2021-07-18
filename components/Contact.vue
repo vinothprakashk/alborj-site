@@ -30,8 +30,8 @@
                     <option value="General Contracting">
                       General Contracting
                     </option>
-                    <option value="Laminate Flooring">
-                      Laminate Flooring
+                    <option value="Manpower Enquiries">
+                      Manpower Enquiries
                     </option>
                   </select>
                 </div>
