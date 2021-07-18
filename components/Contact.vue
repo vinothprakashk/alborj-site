@@ -73,7 +73,7 @@ export class FormInfo {
     this.phone = ''
     this.from_email = ''
     this.service = 'Construction Consultant'
-    this.to_email = 'alrabwaems@gmail.com'
+    this.to_email = 'alborjgroupshj@gmail.com'
     this.message = ''
     this.template_id = 'd-4d5d74d753664eceb909e1373b2cf297'
   }
