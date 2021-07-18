@@ -52,6 +52,14 @@ export default {
     '@/assets/styles/styles.scss'
   ],
 
+  loading: '~/components/LoadingBar.vue',
+
+  loadingIndicator: {
+    name: 'circle',
+    color: '#3B8070',
+    background: 'white'
+  },
+
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [{
     src: '~plugins/ga.js', mode: 'client'
@@ -74,5 +82,5 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-  }
+  },
 }

@@ -127,9 +127,9 @@ export default {
       padding: size(15);
       // background-color: rgba(116,157,123,0.65);
       max-width: size(200);
-      color: #DFFF1C;
-      font-size: size(16);
-      line-height: 1.5;
+      color: #fff;
+      font-size: size(12);
+      line-height: 1.3;
       .author {
         display: block;
         font-weight: 500;
@@ -153,7 +153,7 @@ export default {
       &-box {
         padding: size(30);
         max-width: size(350);
-        font-size: size(18);
+        font-size: size(14);
       }
     }
   }

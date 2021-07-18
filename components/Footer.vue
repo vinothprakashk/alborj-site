@@ -258,12 +258,15 @@
   &-experience {
     position: fixed;
     bottom: size(45);
+    left: auto;
     right: 0;
     img {
-      height: size(100);
-      @media screen and (min-width: $breakpoint-md) {
-        height: size(150);
-      }
+      height: size(65);
+    }
+    @media screen and (min-width: $breakpoint-md) {
+      left: 0;
+      right: auto;
+      img { height: size(100); }
     }
   }
 }
