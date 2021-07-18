@@ -74,9 +74,8 @@ export class FormInfo {
     this.from_email = ''
     this.service = 'Construction Consultant'
     this.to_email = 'alrabwaems@gmail.com'
-    this.location = ''
     this.message = ''
-    this.template_id = 'd-9fe5fbafaac24bfc8b4d0eac2e500d26'
+    this.template_id = 'd-4d5d74d753664eceb909e1373b2cf297'
   }
 }
 
