@@ -29,7 +29,7 @@ export default {
     },
     description: {
       type: String,
-      default: 'AL BORJ OIL FIELD SERVICES is one of the reputed manpower supply and MEP subcontracting company in Dubai, UAE'
+      default: 'Al Borj Group  is one of the reputed manpower supply and MEP subcontracting company in UAE'
     },
     onlyContent: {
       type: Boolean,
@@ -84,6 +84,21 @@ export default {
         background-color: #1919194a;
       }
     }
+    &.services {
+      background: url('../assets/sub/service_bg.png') #3aa6cd;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      &:before {
+        background-color: #ffffff91;
+      }
+      .banner-inner-left {
+        color: #333;
+        p {
+          color: #3a3a3a;
+        }
+      }
+    }
   }
   &-inner {
     min-height: size(330);
@@ -110,7 +125,7 @@ export default {
       bottom: size(20);
       right: size(20);
       padding: size(15);
-      background-color: rgba(116,157,123,0.65);
+      // background-color: rgba(116,157,123,0.65);
       max-width: size(200);
       color: #DFFF1C;
       font-size: size(16);

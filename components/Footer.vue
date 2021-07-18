@@ -35,7 +35,7 @@
           </p>
           <p>
             <svg><use xlink:href="#map" /></svg>
-            <a href="https://goo.gl/maps/BcfeSdbePb9K3f2a6" target="_blank" title="Directions">
+            <a href="https://goo.gl/maps/LxHmqjprx6JyZdqg9" target="_blank" title="Directions">
               Directions
             </a>
           </p>
@@ -67,7 +67,7 @@
           </p>
           <p>
             <svg><use xlink:href="#map" /></svg>
-            <a href="https://goo.gl/maps/LxHmqjprx6JyZdqg9" target="_blank" title="Directions">
+            <a href="https://goo.gl/maps/BcfeSdbePb9K3f2a6" target="_blank" title="Directions">
               Directions
             </a>
           </p>
@@ -117,6 +117,9 @@
           © Copyrights 2021 - Alborj Group UAE
         </div>
       </div>
+    </div>
+    <div class="footer-experience">
+      <img src="../assets/20years.svg" alt="20years Experience">
     </div>
   </div>
 </template>
@@ -251,6 +254,17 @@
     text-align: center;
     padding: size(15) 0;
     margin-top: size(60);
+  }
+  &-experience {
+    position: fixed;
+    bottom: size(45);
+    right: 0;
+    img {
+      height: size(100);
+      @media screen and (min-width: $breakpoint-md) {
+        height: size(150);
+      }
+    }
   }
 }
 </style>

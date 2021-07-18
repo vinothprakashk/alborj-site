@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Banner :title="'Who we are'" />
+    <Banner :title="'Who we are'" :description="'Al Borj Group  is one of the reputed manpower supply and MEP subcontracting company in UAE'" />
     <div class="container">
       <div class="common__content">
         <h1 class="common__title">
@@ -23,6 +23,20 @@
             <p>
               Our Customer Relations Department to ensure total customer satisfaction. This division mainly deals with all customer requirements concerning mobilization, demobilization of manpower, safety materials and prompt replacement of any worker that our clients feel is not productive.Another unique aspect we have is our safety measures. All our workers are protected by Full Insurance coverage throughout the United Arab Emirates
             </p>
+            <div class="clients">
+              <div class="sub">
+                <img src="../assets/clients/ALEC - DUBAI.jpg" alt="ALEC - DUBAI">
+              </div>
+              <div class="sub">
+                <img src="../assets/clients/BINGHATTI - DUBAI.jpg" alt="BINGHATTI">
+              </div>
+              <div class="sub">
+                <img src="../assets/clients/ADPF - ABU DHABI.jpg" alt="ADPF - ABU DHABI">
+              </div>
+              <div class="sub">
+                <img src="../assets/clients/ALEMCO - DUBAI.jpg" alt="ALEMCO - DUBAI">
+              </div>
+            </div>
           </div>
         </div>
         <div class="objectives">
@@ -113,8 +127,23 @@ export default {
 
 <style lang="scss" scoped>
 .another-company {
-  @media screen and (min-width: $breakpoint-md) {
+  display: flex;
+  column-gap: size(20);
+  margin-top: size(40);
+  .clients {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .sub {
+      max-width: size(150);
+      margin-bottom: size(20);
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+  @media screen and (min-width: $breakpoint-md) {
     column-gap: size(40);
     margin-top: size(60);
   }

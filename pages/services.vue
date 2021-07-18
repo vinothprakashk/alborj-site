@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Banner :title="'Services'" :only-content="true" />
+    <Banner :title="'Services'" :custom-class="'services'" :description="'We at Al Borj Group provide a range of services in MEP and Oil & Gas field specifically for your needs'" :only-content="true" />
     <sub-section :title="subSections[0].title" :desc="subSections[0].desc" :rev-order="true">
       <img class="worker-bg" src="../assets/sub/man_power.png" alt="Alborj Contract">
     </sub-section>

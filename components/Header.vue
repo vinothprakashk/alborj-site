@@ -72,7 +72,7 @@
         padding: size(10) size(15);
         display: inline-flex;
         color: #E10000;
-        text-transform: uppercase;
+        text-transform: capitalize;
         font-size: size(16);
         text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.58);
         @media screen and (min-width: $breakpoint-md) {
