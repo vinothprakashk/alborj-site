@@ -113,7 +113,7 @@
     <div class="footer-bottom">
       <div class="container">
         <div class="footer-bottom-inner">
-          © Copyrights 2021 - Alborj Group UAE
+          © Copyrights 2021 - Alborj Group UAE.
         </div>
       </div>
     </div>

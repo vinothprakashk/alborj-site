@@ -11,14 +11,15 @@ export default {
   data: () => ({
     loading: true
   }),
+  mounted () {
+    setTimeout(() => this.finish(), 700)
+  },
   methods: {
     start () {
       this.loading = true
     },
     finish () {
       this.loading = false
-      // eslint-disable-next-line no-console
-      console.log('finised')
     }
   }
 }
