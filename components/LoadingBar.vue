@@ -9,14 +9,19 @@
 <script>
 export default {
   data: () => ({
-    loading: true
+    loading: false
   }),
   mounted () {
-    setTimeout(() => this.finish(), 700)
+    setTimeout(() => {
+      this.loading = false
+    }, 700)
   },
   methods: {
     start () {
       this.loading = true
+      setTimeout(() => {
+        this.loading = false
+      }, 1000)
     },
     finish () {
       this.loading = false
